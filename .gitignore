@@ -36,5 +36,5 @@ build/
 
 ### Mac OS ###
 .DS_Store
-
-resources/
+src/main/resources/*
+src/main/resources/config.json
