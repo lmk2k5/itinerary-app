@@ -29,7 +29,7 @@
         <dependency>
             <groupId>io.vertx</groupId>
             <artifactId>vertx-auth-jwt</artifactId>
-            <version>${vertx.version}</version>
+            <version>4.5.1</version>
         </dependency>
         <dependency>
             <groupId>io.vertx</groupId>
@@ -46,6 +46,12 @@
             <artifactId>vertx-config</artifactId>
             <version>5.0.1</version>
         </dependency>
+        <dependency>
+            <groupId>org.mindrot</groupId>
+            <artifactId>jbcrypt</artifactId>
+            <version>0.4</version>
+        </dependency>
+
     </dependencies>
 
     <build>
